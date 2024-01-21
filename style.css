@@ -1,0 +1,257 @@
+body{
+    background: black;
+}
+
+h1 {
+    font-family: 'roboto';
+    font-size: 50px;
+    
+}
+h2{
+    font-family: 'roboto';
+    font-size: 30px;
+}
+p {
+    font-family: 'roboto';
+    font-size: 15px;
+}
+
+.main_canvas{
+
+    width: 1191.9172px;
+    height: 841.9241px;
+    position: absolute;
+    left: 50%;
+    transform: translate( -50%);
+    background: white;
+    overflow: hidden;
+}
+
+
+
+.images_right{
+    position: absolute;
+    top: 40px;
+
+}
+
+.images_left{
+    position: absolute;
+    left: -170px;
+    top:-110px;
+}
+
+.triangle1, .triangle2, .triangle3{
+    margin-top: 100px;
+    position: relative;
+    height: 200px;
+    width: 200px;
+    background: black;
+    transform: translate(40px)rotate(45deg);
+    overflow:hidden;
+    transition: 0.3s;
+}
+
+
+
+.triangle4, .triangle5, .triangle6{
+    background-color: red;
+    margin-top: 100px;
+    position: relative;
+    height: 200px;
+    width: 200px;
+    transform: translate(40px)rotate(45deg);
+    overflow:hidden;
+    transition: 0.3s;
+}
+
+.triangle5{
+    transform: translate(40px)rotate(45deg);
+}
+
+#secretary, #electro, #computer, #factory, #factory2{
+    height: 300px;
+    transform:  translateY(-10px) translateX(-150px) rotate(-45deg);
+    transition: 0.3s;
+
+}
+
+#woman_working{
+    position: relative;
+    bottom: 100px;
+    left: 70px;
+    height: 400px;
+    transform:   rotate(-45deg);
+    transition: 0.3s;
+}
+
+#trianglebg1{
+    position: absolute;
+    top: -50px;
+    transform: translate(-50% -50%);
+    height: 400px;
+    width: 400px;
+    background-color: black ;
+    opacity: 0.5;
+    transition: 0.3s;
+}
+
+
+#trianglebg2{
+    position: absolute;
+    top: -50px;
+    transform: translate(-50% -50%);
+    height: 400px;
+    width: 400px;
+    background-color: green ;
+    opacity: 0.5;
+    transition: 0.3s;
+}
+
+#trianglebg3{
+    position: absolute;
+    top: -50px;
+    transform: translate(-50% -50%);
+    height: 400px;
+    width: 400px;
+    background-color: green;
+    opacity: 0.5;
+    transition: 0.3s;
+}
+
+#trianglebg4{
+    position: absolute;
+    top: -50px;
+    transform: translate(-50% -50%);
+    height: 400px;
+    width: 400px;
+    background-color: black ;
+    opacity: 0.5;
+    transition: 0.3s;
+}
+
+#trianglebg4{
+    position: absolute;
+    top: -50px;
+    transform: translate(-50% -50%);
+    height: 400px;
+    width: 400px;
+    background-color: green ;
+    opacity: 0.5;
+    transition: 0.3s;
+}
+
+#trianglebg5{
+    position: absolute;
+    top: -50px;
+    transform: translate(-50% -50%);
+    height: 400px;
+    width: 400px;
+    background-color: black ;
+    opacity: 0.5;
+    transition: 0.3s;
+}
+#trianglebg6{
+    position: absolute;
+    top: -50px;
+    transform: translate(-50% -50%);
+    height: 400px;
+    width: 400px;
+    background-color: black ;
+    opacity: 0.5;
+    transition: 0.3s;
+}
+.aman1{
+    position: absolute;
+    z-index: 2;
+    top: 270px;
+    left: 320px;
+    color: white;
+}
+
+.bg_mask{
+    width: 1000px;
+    height: 100px;
+    background-color: black;
+}
+.tree{
+    bottom: 100px;
+    right: 300px;
+    position: relative;
+    
+}
+.svg_mask{
+    position: absolute;
+    top: 250px;
+    right: -5px;
+    background-color: black;
+    width: 1034px;
+    height: 274px;
+    mask-image: url(Assets/arrow.svg);
+    opacity: 0.5;
+    mask-size:1034px 274px ;
+    mask-repeat: no-repeat;
+    
+}
+.svg_mask1{
+    position: absolute;
+    top: 250px;
+    right: -5px;
+    background-color: black;
+    width: 1034px;
+    height: 274px;
+    mask-image: url(Assets/arrow.svg);
+    mask-size:1034px 274px ;
+    mask-repeat: no-repeat;
+}
+
+#arrow h1{
+    z-index: 5;
+    color: white;
+}
+
+.aman{
+display: flex;
+position: absolute;
+flex-direction: column;
+left: 300px;
+top: 270px;
+z-index: 2;
+margin: 0;
+padding: 0;
+
+}
+
+h1::selection{
+    background: green;
+}
+
+.aman h1{
+    line-height: 55px;
+    color: white;
+    text-align: right;
+}
+
+.logo{
+    position: relative;
+    left: 350px;
+    top: 45px;
+}
+
+.solutions{
+ position: absolute;
+ left: 230px;
+ text-align: right;
+ bottom: 50px;
+}
+
+.body_text{
+    margin-top: -20px;
+    line-height: 30px;
+}
+
+.solution1{
+    color: green;
+}
+
+
